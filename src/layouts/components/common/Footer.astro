@@ -19,7 +19,6 @@ const recentPosts = (await getCollection('posts', ({ data }) => !data.draft))
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Brand -->
       <div>
-        <Image src={logoSVG} alt={siteConfig.title} width={140} height={140} />
         <p class="mt-4 text-sm text-gray-500 dark:text-gray-400">
           Providing valuable resources and tutorials for web developers and tech enthusiasts.
         </p>
